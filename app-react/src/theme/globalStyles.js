@@ -84,26 +84,6 @@ body {
   right: 5px;
 }
 
-.modal:not(.modal-lesson):hover button.sign-in {
-  cursor: pointer;
-  background: var(--secondary-b-color);
-  color: white;
-  transition: 0.2s;
-}
-
-.modal button.sign-in {
-  display: block;
-  min-height: 85px;
-  min-width: 250px;
-  border: none;
-  background: white;
-  padding: 0;
-  margin: 0;
-  font-family: inherit;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
 /* modal lesson styles */
 
 .modal-lesson {
@@ -138,66 +118,6 @@ body {
 .modal-lesson-content {
   padding: 15px 60px;
   align-self: flex-start;
-}
-
-/* header styles */
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 2;
-  position: relative;
-  background: var(--main-b-color);
-  padding: 15px 20px;
-  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.07), 0 3px 10px 0 rgba(0, 0, 0, 0.07);
-  color: white;
-  min-height: 50px;
-  max-height: 50px;
-}
-
-.header-title {
-  display: flex;
-}
-
-.header-title img {
-  width: 24px;
-  margin-left: 6px;
-  margin-bottom: -6px;
-}
-
-.sign-out .button {
-  background: white;
-  color: var(--main-b-color);
-  border-radius: 3px;
-  font-size: 14px;
-  font-weight: 700;
-}
-
-.profile {
-  display: flex;
-  align-items: center;
-}
-
-.avatar img {
-  height: 50px;
-  width: 50px;
-  border-radius: 53px;
-  margin-left: 20px;
-  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.07), 0 3px 10px 0 rgba(0, 0, 0, 0.07);
-}
-
-.header h1,
-.header h2 {
-  margin: 0;
-}
-
-.header h1 {
-  font-size: 28px;
-}
-
-.header h2 {
-  font-size: 16px;
 }
 
 /* loading skeleton styles */
